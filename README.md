@@ -216,4 +216,4 @@ GitHub: https://github.com/zanewyatt1729
 ---
 
 If you find this project interesting, consider giving the repository a star!
->>>>>>> 819f684 (Add professional project README)
+
