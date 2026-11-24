@@ -1,0 +1,48 @@
+
+PROJECT: E-Commerce Customer Purchase Prediction
+
+DATASET:
+UCI Online Shoppers Purchasing Intention Dataset
+
+TOTAL RECORDS:
+12,330
+
+MODEL:
+Tuned Random Forest Classifier
+
+FEATURES:
+16 input features, excluding Revenue and PageValues
+
+TRAINING RECORDS:
+9,864
+
+TESTING RECORDS:
+2,466
+
+OPTIMIZED CLASSIFICATION THRESHOLD:
+0.55
+
+FINAL TEST RESULTS:
+Accuracy: 0.7725
+Precision: 0.3382
+Recall: 0.4895
+F1 Score: 0.4000
+ROC AUC: 0.7629
+
+CONFUSION MATRIX:
+True Negatives: 1718
+False Positives: 366
+False Negatives: 195
+True Positives: 187
+
+MODEL FILE:
+models/purchase_prediction_model.joblib
+
+CONCLUSION:
+The tuned Random Forest model achieved 77.25%
+accuracy and a 0.7629 ROC-AUC score on the
+held-out test set. It identified 48.95% of
+actual purchase sessions at the selected
+classification threshold.
+
+
